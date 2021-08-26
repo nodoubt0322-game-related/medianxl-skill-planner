@@ -32,7 +32,7 @@ export default {
   methods: {
     ...mapMutations(["setActiveSkill"]),
     handleSelect(key) {
-      console.log(key);
+      this.setActiveSkill(key);
     },
   },
 };

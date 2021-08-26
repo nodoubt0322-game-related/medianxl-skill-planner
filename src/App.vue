@@ -7,24 +7,24 @@
     <el-col :span="12">
       <router-view />
     </el-col>
-    <el-col :span="4">
+    <!-- <el-col :span="4">
       <SkillTab :skillTabList="skillTabList" />
-    </el-col>
+    </el-col> -->
   </el-row>
 </template>
 
 <script>
 import Nav from "@/components/Nav";
-import SkillTab from "@/components/SkillTab";
+//import SkillTab from "@/components/SkillTab";
 export default {
-  data() {
-    return {
-      skillTabList: ["aa", "bb", "cc", "dd", "ee", "ff", "gg", "hh"],
-    };
-  },
+  // data() {
+  //   return {
+  //     skillTabList: ["aa", "bb", "cc", "dd", "ee", "ff", "gg", "hh"],
+  //   };
+  // },
   components: {
     Nav,
-    SkillTab,
+    // SkillTab,
   },
 };
 </script>
